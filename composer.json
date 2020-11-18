@@ -1,9 +1,22 @@
-
 {
-    "name": "your-vendor-name/package-name",
-    "description": "A short description of what your package does",
+    "name": "nhantranfit/php-module",
+    "description": "For testing",
+    "keywords": [
+        "nhantranfit"
+    ],
+    "authors": [
+        {
+            "name": "nhantranfit",
+            "email": "mrkaceur@gmail.com"           
+        }
+    ],
+    "license": "MIT",
     "require": {
-        "php": "^7.2",
-        "another-vendor/package": "1.*"
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "nhantranfit\\module\\": "/"
+        }
+    },
+    "minimum-stability": "dev"
 }
